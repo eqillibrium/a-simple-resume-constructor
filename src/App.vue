@@ -80,6 +80,7 @@
       </div>
 
       <app-button
+          v-if="!isItemsEmpty"
           :color="'primary'"
           @action="addToDatabase"
       >
